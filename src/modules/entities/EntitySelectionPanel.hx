@@ -75,6 +75,8 @@ class EntitySelectionPanel extends SidePanel
                 var label = t.name;
                 if (arr.length > 1)
 					label = '${arr.length}x $label';
+				else
+					label = label + ' [id:' + arr[0].id + ']';
 
                 var item = new ItemListItem(label);
                 item.setImageIcon(t.getIcon());
