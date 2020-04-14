@@ -4,6 +4,35 @@
 
 ### Open Source 2D level editor written in Haxe!
 
+# Guía rápida de desarrollo
+
+* Instalar Git
+* Instalar Node: https://nodejs.org/
+* Instalar Haxe: https://haxe.org/download/
+* Instalar Neko: https://nekovm.org/download/ (copiar dentro de Haxe)
+* Ejecutar
+```
+haxelib setup
+haxelib install electron 4.1.4
+haxelib install jQueryExtern
+haxelib install haxe-loader
+```
+* Clonar repositorio
+```
+git clone https://github.com/danigatts/OgmoEditor3-CE.git
+```
+* Compilar
+```
+npm i
+npm run build
+```
+* Generar ejecutable
+```
+npm i
+npm run build
+npm run dist
+```
+
 # Getting Started
 
 This project requires Haxe v4.0.0 or later, Node v10+, and various dependencies for each of them.
